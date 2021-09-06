@@ -8,7 +8,8 @@ It consists of implementing a computer program to solve the (n^2 - 1)-puzzle usi
 
 Two classes were used: Board, Solver
 
-Board performs all actions that involve the board, such as: generate random initial state and change the states.
+Board performs all actions that involve the board, such as: generate random initial state and change the states
+
 Solver contains the algoritms y create the paths.
 
 ### BFS
