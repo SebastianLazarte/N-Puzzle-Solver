@@ -20,7 +20,7 @@ It starts from the initial state, visits and expands the nodes until it reaches 
 Has the advantages of BFS and DFS 
 Memory requirements are linear (DFS) Guarantees an optimal solution (if exists) (BFS)
 
-##Experiments & Results
+## Experiments & Results
 
 ![image](https://user-images.githubusercontent.com/72448046/132264608-524bd951-c8a6-4a1c-ac6c-e1c4e8883389.png)
 
