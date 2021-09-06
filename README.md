@@ -21,8 +21,10 @@ Has the advantages of BFS and DFS
 Memory requirements are linear (DFS) Guarantees an optimal solution (if exists) (BFS)
 
 ## Experiments & Results
+For n = 2: generate the entire state space manually on a sheet of paper (or a word document).
+word document). Scan this sheet (or take a naked picture of it) and include it in your report. How many states are they?
 
-![image](https://user-images.githubusercontent.com/72448046/132264608-524bd951-c8a6-4a1c-ac6c-e1c4e8883389.png)
+![image](https://user-images.githubusercontent.com/72448046/132264608-524bd951-c8a6-4a1c-ac6c-e1c4e8883389.png)| width=100)
 
 
 
