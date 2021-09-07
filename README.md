@@ -31,6 +31,7 @@ select a randomly generated initial state and start expanding it, taking care no
 expand nodes that were previously expanded. Report the number of states generated and comment.
 comment.
 
+![image](https://user-images.githubusercontent.com/72448046/132272167-8dddccdb-4efa-4072-b4a4-5fb6eb85ed22.png)
 
 
 
