@@ -32,6 +32,8 @@ expand nodes that were previously expanded. Report the number of states generate
 comment.
 
 ![image](https://user-images.githubusercontent.com/72448046/132272167-8dddccdb-4efa-4072-b4a4-5fb6eb85ed22.png)
+![image](https://user-images.githubusercontent.com/72448046/132272196-ced56267-3551-4c69-b02b-698bf9434749.png)
+![image](https://user-images.githubusercontent.com/72448046/132272210-73c358ad-f9dc-4140-937e-818c88c1fec5.png)
 
 
 
