@@ -31,11 +31,21 @@ select a randomly generated initial state and start expanding it, taking care no
 expand nodes that were previously expanded. Report the number of states generated and comment.
 comment.
 
+###### BFS
 ![image](https://user-images.githubusercontent.com/72448046/132272167-8dddccdb-4efa-4072-b4a4-5fb6eb85ed22.png)
 
 ![image](https://user-images.githubusercontent.com/72448046/132272196-ced56267-3551-4c69-b02b-698bf9434749.png)
 
 ![image](https://user-images.githubusercontent.com/72448046/132272210-73c358ad-f9dc-4140-937e-818c88c1fec5.png)
+
+Number of states
+
+![image](https://user-images.githubusercontent.com/72448046/132274120-4082b72f-2518-4fee-b620-a93f6affb712.png)
+
+
+###### ID
+
+
 
 
 
