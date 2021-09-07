@@ -20,6 +20,11 @@ It starts from the initial state, visits and expands the nodes until it reaches 
 Has the advantages of BFS and DFS 
 Memory requirements are linear (DFS) Guarantees an optimal solution (if exists) (BFS)
 
+## Running the script
+
+**python main.py** inside the directory of the file.
+In order to read the file just write the name of it
+
 ## Experiments & Results
 1.For n = 2: generate the entire state space manually on a sheet of paper (or a word document).
 word document). Scan this sheet (or take a naked picture of it) and include it in your report. How many states are they?
