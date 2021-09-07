@@ -16,6 +16,10 @@ class Board:
         for i in range(self.size):
             for j in range(self.size):
                 if(self.initialState[i][j] == 0):
+                    if(j-1 >= 0):
+                        aux = copy.deepcopy(self.initialState)
+                        aux[i][j-1], aux[i][j] = aux[i][j], aux[i][j-1]
+                        boars_neighbours.append(Board(aux, self, 'Left')) if parent_register else boars_neighbours.append(Board(aux))
                     if(i - 1 >= 0):
                         aux = copy.deepcopy(self.initialState)
                         aux[i - 1][j], aux[i][j] = aux[i][j], aux[i - 1][j]
@@ -24,10 +28,6 @@ class Board:
                         aux = copy.deepcopy(self.initialState)
                         aux[i+1][j], aux[i][j] = aux[i][j], aux[i+1][j]
                         boars_neighbours.append(Board(aux, self, 'Down')) if parent_register else boars_neighbours.append(Board(aux))
-                    if(j-1 >= 0):
-                        aux = copy.deepcopy(self.initialState)
-                        aux[i][j-1], aux[i][j] = aux[i][j], aux[i][j-1]
-                        boars_neighbours.append(Board(aux, self, 'Left')) if parent_register else boars_neighbours.append(Board(aux))
                     if(j+1 < self.size):
                         aux = copy.deepcopy(self.initialState)
                         aux[i][j+1], aux[i][j] = aux[i][j], aux[i][j+1]
@@ -51,18 +51,18 @@ class Board:
             path.append(nodeActual)
             nodeActual = nodeActual.father
         return list(reversed(path))
-
+        
     def printState(self):
         for row in self.initialState:
             print(row)
 
+    def itsSolved(self):
+        size = self.size**2
+        return self.__repr__() == (' '.join(map(str, range(1, size))) + ' 0')
     def __repr__(self):
         return ' '.join(map(str, self))
-
     def __iter__(self):
         for row in self.initialState:
             yield from row
 
-    def itsSolved(self):
-        size = self.size**2
-        return self.__repr__() == (' '.join(map(str, range(1, size))) + ' 0')
+   

@@ -27,17 +27,6 @@ class Solver:
                 return node.path(),count
             Solver.create_path(node, line, state)
 
-    def iterative_deepening(self):
-        i = 1
-        
-        while i < 200000:
-            result,count = self.dls_no_recursive(i)
-            if result == 'CUTOFF':
-                i = i + 1
-            else:
-                i = 200000
-        return result,count
-
     def dls_no_recursive(self, limit):
         count = 1
         stack = collections.deque([self.puzzle])
@@ -52,3 +41,16 @@ class Solver:
             Solver.create_path(node, stack, state)
         if limit == 0 and node.itsSolved() == False:
             return 'CUTOFF',count
+
+    def iterative_deepening(self):
+        i = 1
+        
+        while i < 200000:
+            result,count = self.dls_no_recursive(i)
+            if result == 'CUTOFF':
+                i = i + 1
+            else:
+                i = 200000
+        return result,count
+
+    
