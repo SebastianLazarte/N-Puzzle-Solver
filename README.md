@@ -55,7 +55,14 @@ execution using BFS and Iterative Deepening.Compare them and comment, which one 
 
 ![image](https://user-images.githubusercontent.com/72448046/132280340-e722dbf6-edb2-4262-b7a8-8d92d900b223.png)
 
-BFS is faster than ID, but BFS use more memory because it uses a queue instead of a stack like DLS thats why BFS is faster than ID and use more memory.
+BFS is faster than ID, but BFS use more memory because it uses a queue instead of a stack like DLS thats why BFS is faster than ID, but ID use less memory.
 
+## Conclusions
+The fact of being able to differentiate the times and memory usage of each algorithm allows a good choice according to the program to be realized.
+## Bibliography
+https://github.com/mahdavipanah/pynpuzzle
+https://github.com/rjoonas/AI-assignment-1
+https://github.com/asarandi/n-puzzle
+https://github.com/andavies/n-puzzle
 
 
