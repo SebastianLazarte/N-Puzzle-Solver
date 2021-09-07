@@ -32,18 +32,24 @@ expand nodes that were previously expanded. Report the number of states generate
 comment.
 
 ###### BFS
-![image](https://user-images.githubusercontent.com/72448046/132272167-8dddccdb-4efa-4072-b4a4-5fb6eb85ed22.png)
+![image](https://user-images.githubusercontent.com/72448046/132274702-1b253312-c2a7-4dd6-9110-41ce22faf492.png)
 
-![image](https://user-images.githubusercontent.com/72448046/132272196-ced56267-3551-4c69-b02b-698bf9434749.png)
+![image](https://user-images.githubusercontent.com/72448046/132274737-90b90d50-6248-423f-89cf-66a8ebd1ce0b.png)
 
-![image](https://user-images.githubusercontent.com/72448046/132272210-73c358ad-f9dc-4140-937e-818c88c1fec5.png)
+
 
 Number of states
 
-![image](https://user-images.githubusercontent.com/72448046/132274120-4082b72f-2518-4fee-b620-a93f6affb712.png)
+![image](https://user-images.githubusercontent.com/72448046/132274767-b05ac3a7-1419-4142-be27-3ca1074c7b32.png)
 
 
 ###### ID
+
+![image](https://user-images.githubusercontent.com/72448046/132274809-71bb216e-c990-473e-afb8-f33e4cfca302.png)
+
+![image](https://user-images.githubusercontent.com/72448046/132274816-53b5a7e1-d47c-4ed1-9f18-d9676395b1e9.png)
+
+
 
 
 
