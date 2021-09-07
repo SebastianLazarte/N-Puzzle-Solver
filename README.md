@@ -53,6 +53,10 @@ set of actions (more than 8). Compare execution time and space2 occupied when se
 execution using BFS and Iterative Deepening.Compare them and comment, which one is faster?, which one takes less memory?, why?**
 
 
+![image](https://user-images.githubusercontent.com/72448046/132279716-b50d93ea-8333-41a3-838e-11151540048d.png)
+
+![image](https://user-images.githubusercontent.com/72448046/132280340-e722dbf6-edb2-4262-b7a8-8d92d900b223.png)
+
 
 
 
