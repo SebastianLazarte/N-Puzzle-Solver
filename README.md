@@ -26,10 +26,9 @@ word document). Scan this sheet (or take a naked picture of it) and include it i
 
 ![image](https://user-images.githubusercontent.com/72448046/132264608-524bd951-c8a6-4a1c-ac6c-e1c4e8883389.png)
 
-2.For n = 3: generate the entire state space using a computer program. For this I suggest you
+**2.For n = 3: generate the entire state space using a computer program. For this I suggest you
 select a randomly generated initial state and start expanding it, taking care not to expand nodes that were previously
-expand nodes that were previously expanded. Report the number of states generated and comment.
-comment.
+expand nodes that were previously expanded. Report the number of states generated and comment.**
 
 ###### BFS
 ![image](https://user-images.githubusercontent.com/72448046/132274702-1b253312-c2a7-4dd6-9110-41ce22faf492.png)
@@ -49,6 +48,9 @@ Number of states
 
 ![image](https://user-images.githubusercontent.com/72448046/132274816-53b5a7e1-d47c-4ed1-9f18-d9676395b1e9.png)
 
+**3. For n = 4: selects an initial state and a target state that can be reached by executing a set of actions (more than 8).
+set of actions (more than 8). Compare execution time and space2 occupied when searching, solving and executing using BFS and Iterative
+execution using BFS and Iterative Deepening.Compare them and comment, which one is faster?, which one takes less memory?, why?**
 
 
 
