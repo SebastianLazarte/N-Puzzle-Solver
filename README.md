@@ -48,7 +48,7 @@ Number of states: 8
 Number of states: 4
 
 **3. For n = 4: selects an initial state and a target state that can be reached by executing a set of actions (more than 8).
-set of actions (more than 8). Compare execution time and space2 occupied when searching, solving and executing using BFS and Iterative
+set of actions (more than 8). Compare execution time and space occupied when searching, solving and executing using BFS and Iterative
 execution using BFS and Iterative Deepening.Compare them and comment, which one is faster?, which one takes less memory?, why?**
 
 
