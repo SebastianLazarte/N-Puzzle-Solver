@@ -49,6 +49,9 @@ execution using BFS and Iterative Deepening.Compare them and comment, which one 
 
 ![image](https://user-images.githubusercontent.com/72448046/132280340-e722dbf6-edb2-4262-b7a8-8d92d900b223.png)
 
+![image](https://user-images.githubusercontent.com/72448046/132282464-aa8c6434-ba77-4561-bb97-734a0b0ac7de.png)
+
+
 BFS is faster than ID, but BFS use more memory because it uses a queue instead of a stack like DLS thats why BFS is faster than ID, but ID use less memory.
 
 ## Conclusions
