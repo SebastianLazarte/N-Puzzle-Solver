@@ -24,7 +24,7 @@ Memory requirements are linear (DFS) Guarantees an optimal solution (if exists) 
 1.For n = 2: generate the entire state space manually on a sheet of paper (or a word document).
 word document). Scan this sheet (or take a naked picture of it) and include it in your report. How many states are they?
 
-![image](https://user-images.githubusercontent.com/72448046/132264608-524bd951-c8a6-4a1c-ac6c-e1c4e8883389.png)
+![image](https://user-images.githubusercontent.com/58644744/132279530-5967ea99-c14e-4ce6-8df3-64574bbb3c34.jpeg)
 
 **2.For n = 3: generate the entire state space using a computer program. For this I suggest you
 select a randomly generated initial state and start expanding it, taking care not to expand nodes that were previously
